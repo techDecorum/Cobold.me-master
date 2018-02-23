@@ -1,0 +1,93 @@
+﻿@page
+@model COBOLD.Pages.DashboardModel
+@{
+	ViewData["Title"] = "Dashboard";
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+		  integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link href="~/css/Dashboard.css" rel="stylesheet" />
+</head>
+<body>
+		<!-- Header Section -->
+		<section id="topheader"class="top-container">
+			<header class="showcase">
+				<h1>Dashboard</h1>
+			</header>
+		</section>
+
+		<div id ="maincontainer" class = "container-fluid">
+
+			<!-- Boxes Menu Section -->
+			<section id="boxesall" class="boxes">
+				<div>
+					<div id="box1" class="box">
+						<i class="fab fa-autoprefixer fa-3x"></i>
+						<h3>Anticipate</h3>
+						<p>
+							Select effective moves for your next negotiation.
+						</p>
+					</div>
+				</div>
+				<div>
+					<div id="box2" class="box">
+						<i class="fas fa-balance-scale fa-3x"></i>
+						<h3>Execute</h3>
+						<p>
+							Bargain effectively to secure the best possible agreement.
+						</p>
+					</div>
+				</div>
+				<div id="box3" class="box">
+					<div>
+						<i class="far fa-thumbs-up fa-3x"></i>
+						<h3>Surpass</h3>
+						<p>
+							Evaluate your negotiated agreements.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Content Section -->
+			<section id="main-block" class="content">
+				<div id="maincontent">
+					<p>Create or open negotations below.</p>
+				</div>
+				<i class="fas fa-plus"><a href="#"></a></i>
+			</section>
+
+			<!-- Footer -->
+			<footer>
+				<p>theNegotiator &copy; 2018</p>
+			</footer>
+		</div>
+	<!-- Wrapper Ends -->
+
+	<!-- /END THE FOOTER -->
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+	<script src="../../../../assets/js/vendor/popper.min.js"></script>
+	<script src="../../../../dist/js/bootstrap.min.js"></script>
+	<script src="../../../../assets/js/vendor/holder.min.js"></script>
+	<script>
+		Holder.addTheme('thumb', {
+			bg: '#55595c',
+			fg: '#eceeef',
+			text: 'Thumbnail'
+		});
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

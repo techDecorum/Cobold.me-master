@@ -1,0 +1,10 @@
+/* Your Custom Styles */
+
+@import url('https://fonts.googleapis.com/css=Raleway');
+@import url('https://fonts.googleapis.com/css=Oswalk');
+
+div {
+	display: grid;
+	grid-template-columns: 200px 200px 300px;
+	grid-template-rows: 200px 200px 300px;
+}
